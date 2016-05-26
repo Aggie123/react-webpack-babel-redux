@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "fc8d1b87c09f612d1506"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9dcf897b097d9dea3dd3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -4699,9 +4699,10 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//TODO replace bashHistory with browserHistory
 	(0, _reactDom.render)(_react2.default.createElement(
 	  _reactRouter.Router,
-	  { history: _reactRouter.browserHistory },
+	  { history: _reactRouter.hashHistory },
 	  _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/', component: _app2.default },
