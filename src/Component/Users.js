@@ -20,7 +20,7 @@ export default class Customers extends Component {
             <ul>
               {/* 在应用中用 Link 去链接路由 */}
               {this.state.users.map(user => (
-                  <li key={user.id}><Link to={`/customers/customer/${user.id}`}>{user.name}</Link></li>
+                  <li key={user.id}><Link to={`/users/user/${user.id}`}>{user.name}</Link></li>
               ))}
             </ul>
           </div>
